@@ -1,7 +1,7 @@
 <html>
 
   <head>
-    <title> customer Signup | Car Rentals </title>
+    <title> Customer Signup | Caprice Car Rentals </title>
   </head>
   <?php session_start(); ?>
   <link rel="shortcut icon" type="image/png" href="assets/img/P.png.png">
@@ -23,7 +23,7 @@
                     <i class="fa fa-bars"></i>
                     </button>
                 <a class="navbar-brand page-scroll" href="index.php">
-                   Car Rentals </a>
+                   Caprice Car Rentals </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
 
@@ -144,7 +144,7 @@ $conn->close();
             <hr>
             <div class="row">
                 <div class="col-sm-6">
-                    <h5>© <?php echo date("Y"); ?> Car Rentals</h5>
+                    <h5>© <?php echo date("Y"); ?> Caprice Car Rentals</h5>
                 </div>
             </div>
         </div>

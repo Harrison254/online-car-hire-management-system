@@ -25,7 +25,7 @@ $conn = Connect();
                     <i class="fa fa-bars"></i>
                     </button>
                 <a class="navbar-brand page-scroll" href="index.php">
-                   Car Rentals </a>
+                   Caprice Car Rentals </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
 
@@ -123,7 +123,7 @@ $conn = Connect();
 <div class="container">
       <div class="jumbotron">
         <h1 class="text-center">Return your cars here</h1>
-        <p class="text-center"> Hope you enjoyed our service </p>
+        <p class="text-center"> Hope you enjoyed our services. </p>
       </div>
     </div>
 
@@ -164,7 +164,7 @@ $conn = Connect();
             <div class="container">
       <div class="jumbotron">
         <h1 class="text-center">No cars to return.</h1>
-        <p class="text-center"> Hope you enjoyed our service </p>
+        <p class="text-center"> Hope you enjoyed our services. </p>
       </div>
     </div>
 
@@ -177,7 +177,7 @@ $conn = Connect();
             <hr>
             <div class="row">
                 <div class="col-sm-6">
-                    <h5>© <?php echo date("Y"); ?> Car Rentals</h5>
+                    <h5>© <?php echo date("Y"); ?> Caprice Car Rentals</h5>
                 </div>
             </div>
         </div>

@@ -8,7 +8,7 @@ $conn = Connect();
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Rentals</title>
+    <title>Caprice Car Rentals</title>
     <link rel="shortcut icon" type="image/png" href="assets/img/P.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -22,14 +22,14 @@ $conn = Connect();
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="color: black">
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="color: Red">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                     </button>
                 <a class="navbar-brand page-scroll" href="index.php">
-                   Car Rentals </a>
+                   Caprice Car Rentals </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
 
@@ -121,7 +121,7 @@ $conn = Connect();
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
-                            <h1 class="brand-heading" style="color: black">Car Rentals</h1>
+                            <h1 class="brand-heading" style="color: Green">Caprice Car Rentals</h1>
                             <p class="intro-text">
                                 Online Car Rental Service
                             </p>
@@ -160,8 +160,8 @@ $conn = Connect();
 
             <img class="card-img-top" src="<?php echo $car_img; ?>" alt="Card image cap">
             <h5><b> <?php echo $car_name; ?> </b></h5>
-            <h6> AC Fare: <?php echo ("Rs. " . $ac_price . "/km & Rs." . $ac_price_per_day . "/day"); ?></h6>
-            <h6> Non-AC Fare: <?php echo ("Rs. " . $non_ac_price . "/km & Rs." . $non_ac_price_per_day . "/day"); ?></h6>
+            <h6> AC Fare: <?php echo ("Ksh. " . $ac_price . "/km & Ksh." . $ac_price_per_day . "/day"); ?></h6>
+            <h6> Non-AC Fare: <?php echo ("Ksh. " . $non_ac_price . "/km & Ksh." . $non_ac_price_per_day . "/day"); ?></h6>
 
             
             </div> 
@@ -191,7 +191,7 @@ $conn = Connect();
             <hr>
             <div class="row">
                 <div class="col-sm-6">
-                    <h5>© <?php echo date("Y"); ?> Car Rentals</h5>
+                    <h5>© <?php echo date("Y"); ?> Caprice Car Rentals</h5>
                 </div>
                 
             </div>

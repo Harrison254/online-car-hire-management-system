@@ -25,7 +25,7 @@ $conn = Connect();
                     <i class="fa fa-bars"></i>
                     </button>
                 <a class="navbar-brand page-scroll" href="index.php">
-                   Car Rentals </a>
+                   Caprice Car Rentals </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
 
@@ -147,7 +147,7 @@ $conn = Connect();
 <td><?php echo $row["car_name"]; ?></td>
 <td><?php echo $row["rent_start_date"] ?></td>
 <td><?php echo $row["rent_end_date"]; ?></td>
-<td>Rs.  <?php 
+<td>Ksh.  <?php 
             if($row["charge_type"] == "days"){
                     echo ($row["fare"] . "/day");
                 } else {
@@ -160,7 +160,7 @@ $conn = Connect();
                     echo ($row["distance"]);
                 } ?></td>
 <td><?php echo $row["no_of_days"]; ?> </td>
-<td>Rs.  <?php echo $row["total_amount"]; ?></td>
+<td>Ksh.  <?php echo $row["total_amount"]; ?></td>
 </tr>
 <?php        } ?>
                 </table>
@@ -183,7 +183,7 @@ $conn = Connect();
             <hr>
             <div class="row">
                 <div class="col-sm-6">
-                    <h5>© <?php echo date("Y"); ?> Car Rentals</h5>
+                    <h5>© <?php echo date("Y"); ?> Carprice Car Rentals</h5>
                 </div>
             </div>
         </div>

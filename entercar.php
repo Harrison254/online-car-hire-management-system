@@ -122,19 +122,19 @@ include('session_client.php'); ?>
           </div>     
 
           <div class="form-group">
-            <input type="text" class="form-control" id="ac_price" name="ac_price" placeholder="AC Fare per KM (Rs)" required>
+            <input type="text" class="form-control" id="ac_price" name="ac_price" placeholder="AC Fare per KM (Ksh)" required>
           </div>
 
           <div class="form-group">
-            <input type="text" class="form-control" id="non_ac_price" name="non_ac_price" placeholder="Non-AC Fare per KM (Rs)" required>
+            <input type="text" class="form-control" id="non_ac_price" name="non_ac_price" placeholder="Non-AC Fare per KM (Ksh)" required>
           </div>
 
           <div class="form-group">
-            <input type="text" class="form-control" id="ac_price_per_day" name="ac_price_per_day" placeholder="AC Fare per day (Rs)" required>
+            <input type="text" class="form-control" id="ac_price_per_day" name="ac_price_per_day" placeholder="AC Fare per day (Ksh)" required>
           </div>
 
           <div class="form-group">
-            <input type="text" class="form-control" id="non_ac_price_per_day" name="non_ac_price_per_day" placeholder="Non-AC Fare per day (Rs)" required>
+            <input type="text" class="form-control" id="non_ac_price_per_day" name="non_ac_price_per_day" placeholder="Non-AC Fare per day (Ksh)" required>
           </div>
 
           <div class="form-group">

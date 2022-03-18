@@ -10,7 +10,7 @@ header("location: index.php"); //Redirecting
     <html>
 
     <head>
-        <title> Customer Login | Car Rental </title>
+        <title> Customer Login | Caprice Car Rental </title>
     </head>
     <link rel="shortcut icon" type="image/png" href="assets/img/P.png.png">
     <link rel="stylesheet" type="text/css" href="assets/css/customerlogin.css">
@@ -30,7 +30,7 @@ header("location: index.php"); //Redirecting
                     <i class="fa fa-bars"></i>
                     </button>
                 <a class="navbar-brand page-scroll" href="index.php">
-                   Car Rentals </a>
+                   Caprice Car Rentals </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
 
@@ -114,7 +114,7 @@ header("location: index.php"); //Redirecting
 
         <div class="container">
             <div class="jumbotron">
-            <h1 class="text-center">Car Rentals - Customer Panel </span>
+            <h1 class="text-center">Caprice Car Rentals - Customer Panel </span>
                 </h1>
                 <br>
                 <p class="text-center">Please LOGIN to continue.</p>
@@ -176,7 +176,7 @@ header("location: index.php"); //Redirecting
             <hr>
             <div class="row">
                 <div class="col-sm-6">
-                    <h5>© <?php echo date("Y"); ?> Car Rentals</h5>
+                    <h5>© <?php echo date("Y"); ?>Caprice Car Rentals</h5>
                 </div>
             </div>
         </div>

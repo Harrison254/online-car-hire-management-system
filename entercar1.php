@@ -108,7 +108,7 @@
 <?php
 
 require 'connection.php';
-$conn = Connect();
+$conn = connect();
 
 function GetImageExtension($imagetype) {
     if(empty($imagetype)) return false;
@@ -161,8 +161,8 @@ if (!empty($_FILES["uploadedimage"]["name"])) {
 $query1 = "SELECT car_id from cars where car_nameplate = '$car_nameplate'";
 
 $result = mysqli_query($conn, $query1);
-$rs = mysqli_fetch_array($result, MYSQLI_BOTH);
-$car_id = $rs['car_id'];
+$Ksh = mysqli_fetch_array($result, MYSQLI_BOTH);
+$car_id = $Ksh['car_id'];
  
 
 $query2 = "INSERT into clientcars(car_id,client_username) values('" . $car_id ."','" . $_SESSION['login_client'] . "')";

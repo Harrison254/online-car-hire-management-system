@@ -26,7 +26,7 @@ $conn = Connect();
                     <i class="fa fa-bars"></i>
                     </button>
                 <a class="navbar-brand page-scroll" href="index.php">
-                   Car Rentals </a>
+                   Caprice Car Rentals </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
 
@@ -180,7 +180,7 @@ else {
     </div>
     <br>
 
-    <h2 class="text-center"> Thank you for visiting Car Rentals! We wish you have a safe ride. </h2>
+    <h2 class="text-center"> Thank you for visiting Caprice Car Rentals! We wish you have a safe ride. </h2>
 
     <h3 class="text-center"> <strong>Your Order Number:</strong> <span style="color: blue;"><?php echo "$id"; ?></span> </h3>
 
@@ -189,9 +189,9 @@ else {
         <h5 class="text-center">Please read the following information about your order.</h5>
         <div class="box">
             <div class="col-md-10" style="float: none; margin: 0 auto; text-align: center;">
-                <h3 style="color: orange;">Your booking has been received and placed into out order processing system.</h3>
+                <h3 style="color: orange;">Your booking has been received and placed into our order processing system.</h3>
                 <br>
-                <h4>Please make a note of your <strong>order number</strong> now and keep in the event you need to communicate with us about your order.</h4>
+                <h4>Please take note of your <strong>order number</strong> as you may need to communicate with us about your order.</h4>
                 <br>
                 <h3 style="color: orange;">Invoice</h3>
                 <br>
@@ -227,10 +227,10 @@ else {
                     if($extra_days > 0){
                         
                 ?>
-                <h4> <strong>Total Fine:</strong> <label class="text-danger"> Rs. <?php echo $total_fine; ?>/- </label> for <?php echo $extra_days;?> extra days.</h4>
+                <h4> <strong>Total Fine:</strong> <label class="text-danger"> Ksh. <?php echo $total_fine; ?>/- </label> for <?php echo $extra_days;?> extra days.</h4>
                 <br>
                 <?php } ?>
-                <h4> <strong>Total Amount: </strong> Rs. <?php echo $total_amount; ?>/-     </h4>
+                <h4> <strong>Total Amount: </strong> Ksh. <?php echo $total_amount; ?>/-     </h4>
                 <br>
             </div>
         </div>
@@ -245,7 +245,7 @@ else {
             <hr>
             <div class="row">
                 <div class="col-sm-6">
-                    <h5>© <?php echo date("Y"); ?> Car Rentals</h5>
+                    <h5>© <?php echo date("Y"); ?> Caprice Car Rentals</h5>
                 </div>
             </div>
         </div>

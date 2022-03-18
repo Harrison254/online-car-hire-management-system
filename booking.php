@@ -32,7 +32,7 @@ if(!isset($_SESSION['login_customer'])){
                     <i class="fa fa-bars"></i>
                     </button>
                 <a class="navbar-brand page-scroll" href="index.php">
-                   Car Rentals </a>
+                   Caprice Car Rentals </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
 
@@ -173,12 +173,12 @@ if(!isset($_SESSION['login_customer'])){
                      </div>
                     <div ng-switch-when="ac">
                     <!-- <div class="form-group"> -->
-                <h5>Fare: <b><?php echo("Rs. " . $ac_price . "/km and Rs. " . $ac_price_per_day . "/day");?></b><h5>    
+                <h5>Fare: <b><?php echo("Ksh. " . $ac_price . "/km and Ksh. " . $ac_price_per_day . "/day");?></b><h5>    
                 <!-- </div>    -->
                      </div>
                      <div ng-switch-when="non_ac">
                      <!-- <div class="form-group"> -->
-                <h5>Fare: <b><?php echo("Rs. " . $non_ac_price . "/km and Rs. " . $non_ac_price_per_day . "/day");?></b><h5>    
+                <h5>Fare: <b><?php echo("Ksh. " . $non_ac_price . "/km and Ksh. " . $non_ac_price_per_day . "/day");?></b><h5>    
                 <!-- </div>   -->
                      </div>
         </div>
@@ -247,7 +247,7 @@ if(!isset($_SESSION['login_customer'])){
         
       </div>
       <div class="col-md-12" style="float: none; margin: 0 auto; text-align: center;">
-            <h6><strong>Note:</strong> You will be charged with extra <span class="text-danger">Rs. 500</span> for each day after the due date ends.</h6>
+            <h6><strong>Note:</strong> You will be charged with extra <span class="text-danger">Ksh. 500</span> for each day after the due date ends.</h6>
         </div>
     </div>
 
@@ -257,7 +257,7 @@ if(!isset($_SESSION['login_customer'])){
             <hr>
             <div class="row">
                 <div class="col-sm-6">
-                    <h5>© <?php echo date("Y"); ?> Car Rentals</h5>
+                    <h5>© <?php echo date("Y"); ?> Caprice Car Rentals</h5>
                 </div>
             </div>
         </div>
